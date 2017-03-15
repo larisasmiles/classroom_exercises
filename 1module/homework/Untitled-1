@@ -1,0 +1,23 @@
+Use only the "string concatenation" technique to complete the folowing:
+1.) WHat code can you write to output the string "FirstLast"?
+"f + L"
+2.) What code can you write to output the string "LastFirst"?
+"l + f" 
+3.) What code can you write to output the string " First Last"?
+"f + "" + L"
+4.) What code can you write to output the string "Last First Last First"?
+"l + "" + f + "" + l + "" + f"
+
+1.) #{f + l}
+2.) #{l + f}
+3.) #{f + "" + l}
+4.) #{l + "" + f + "" + l + "" + f}
+
+Names 
+
+name_1 = "Megan Smith"
+name_2 = "Todd Park"
+
+1.) name_1[0..4]
+    name_1[0...5]
+2.)    
