@@ -1,7 +1,6 @@
-random_number = rand(0..10)
-secret_number = 8
-puts "Pick any number between 0 and 10:"
-guess = gets.chomp
+
+not_guessed = true
+secret_number = rand(0..10)
 
 # until guess == random_number
 # 	puts "Guess is #{guess}" "\n Guess again!"
@@ -9,10 +8,23 @@ guess = gets.chomp
     
 #     guess = random_number
 #     puts "You Win!"
-while secret_number != 8 
-    puts "Guess is #{guess}" "\n Guess again!"
 
-end
-  
+# while not_guessed
+# puts "Pick any number between 0 and 10:"
+#    guess = rand(0..10)
+    
+#     puts "Guess is #{guess}" 
+   
+#     if guess == secret_number
+#         not_guessed = false
+           
+#     else
+#       puts "Guess again!"
+#     end
+
+# end
+
+# puts "You win!"
+
 
       

@@ -12,8 +12,21 @@
 # respond with "THANK YOU FOR CALLING" 
 # and the program exits
 
-1.) when the "rules" wont need to be used 
-2.) as an automated site for campers at a specified camp site
-3.) if the customer needs to be directed to a person
+# 1.) when the "rules" wont need to be used 
+# 2.) as an automated site for campers at a specified camp site
+# 3.) if the customer needs to be directed to a person
+
+ready_to_quit = false
+puts "HELLO, THIS IS A GROCERY STORE!"a
+
+input = gets
+until ready_to_quit
+  
+end
+
+puts "THANK YOU FOR CALLING!"
 
 
+Step 1. Get input
+step 2. wait for enter key
+step 3. 
