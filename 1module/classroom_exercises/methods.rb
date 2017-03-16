@@ -1,9 +1,6 @@
-def hello
-    puts "hello there"
+def mathing
+    puts 3
 end
 
-def hello
-    puts "goodbye!"
-end
+ puts mathing 
 
-hello
