@@ -9,18 +9,18 @@ class Person
         @gender = gender
         @location = location
     end
-    def hair_color
-        @hair_color
-    end
-    def language
-        @language
-    end
-    def gender
-        @gender
-    end
-    def location
-        @location
-    end
+    # def hair_color
+    #     @hair_color
+    # end
+    # def language
+    #     @language
+    # end
+    # def gender
+    #     @gender
+    # end
+    # def location
+    #     @location
+    # end
     
     end
 binding.pry
