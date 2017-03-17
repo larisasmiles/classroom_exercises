@@ -11,7 +11,7 @@ class Fridge
      @color         = color
      @temperature   = temperature
      @plugged_in    = plugged_in
-     @contents      = contents
+     @contents      = []
     end
 
     def temperature_in_celsius
@@ -19,10 +19,10 @@ class Fridge
     end
     
     def add_item(item)
-        @content << item
+        @contents << item
     end
  
-    def color=(new_color)
+    def color (new_color)
         @color = new_color
     end
 end
